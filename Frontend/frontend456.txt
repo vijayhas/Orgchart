@@ -2,6 +2,8 @@ fregirhglas
 sdfaF
 sadfa
 sddsFADF
+asfjkdsbf
+aSF
 
 CHANGED_FRONTEND=$(git diff --name-only $CODEBUILD_RESOLVED_SOURCE_VERSION $CODEBUILD_SOURCE_VERSION | grep ^$FRONTEND_DIR/ || true)
         CHANGED_BACKEND=$(git diff --name-only $CODEBUILD_RESOLVED_SOURCE_VERSION $CODEBUILD_SOURCE_VERSION | grep ^$BACKEND_DIR/ || tru
